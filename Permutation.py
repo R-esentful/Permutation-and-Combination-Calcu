@@ -17,7 +17,8 @@ def Permutation(number,r):
                     temp = temp -1
 
         for z in nfactorial:
-            total = total * z        
+            total = total * z  
+        print("Answer = {}".format(total))      
     else:
         print("Input is incorrect!")
 

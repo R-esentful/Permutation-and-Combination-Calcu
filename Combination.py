@@ -27,8 +27,7 @@ def Combination(number,r):
         
         total = tempnf / tempnr
 
-        print(total)
+        print("Answer: {}".format(total))
     else:
         print("Input is incorrect!")
 
-Combination(10,2)
